@@ -1,0 +1,8 @@
+{
+    "Samples": [
+        {
+            "Message": "<?xml version=\"1.0\"?>\r\n<breakfast_menu>\r\n<food>\r\n<name>Belgian Waffles</name>\r\n<price>$5.95</price>\r\n<description>\r\nTwo of our famous Belgian Waffles with plenty of real maple syrup\r\n</description>\r\n<calories>650</calories>\r\n</food>\r\n<food>\r\n<name>Strawberry Belgian Waffles</name>\r\n<price>$7.95</price>\r\n<description>\r\nLight Belgian waffles covered with strawberries and whipped cream\r\n</description>\r\n<calories>900</calories>\r\n</food>\r\n<food>\r\n<name>Berry-Berry Belgian Waffles</name>\r\n<price>$8.95</price>\r\n<description>\r\nLight Belgian waffles covered with an assortment of fresh berries and whipped cream\r\n</description>\r\n<calories>900</calories>\r\n</food>\r\n<food>\r\n<name>French Toast</name>\r\n<price>$4.50</price>\r\n<description>\r\nThick slices made from our homemade sourdough bread\r\n</description>\r\n<calories>600</calories>\r\n</food>\r\n<food>\r\n<name>Homestyle Breakfast</name>\r\n<price>$6.95</price>\r\n<description>\r\nTwo eggs, bacon or sausage, toast, and our ever-popular hash browns\r\n</description>\r\n<calories>950</calories>\r\n</food>\r\n</breakfast_menu>",
+            "Name": ""
+        }
+    ]
+}

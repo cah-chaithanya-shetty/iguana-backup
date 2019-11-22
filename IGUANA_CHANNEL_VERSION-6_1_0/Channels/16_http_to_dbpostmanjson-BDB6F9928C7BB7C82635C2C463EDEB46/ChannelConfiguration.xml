@@ -1,0 +1,24 @@
+<channel
+   name="16]  http_to_db[postman(json)]"
+   guid="BDB6F9928C7BB7C82635C2C463EDEB46"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="https_to_dbjson-To-hwtT1ZKW43JBrk"
+      commit_id="52830e19d933cabe9fd7295857aa1d598bcbb162"
+      commit_comment="Commit">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="59337FDC0CE36B978B095B9F837E802F"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_http
+      type="mapper"
+      guid="https_to_dbjson-FromHTTP-XY01WrX7lcs5oN"
+      commit_id="f5bc6f4d6df978d99454759b21a66ecd0f682bf8"
+      commit_comment="Commit"
+      mapper_url_path="6579"/>
+</channel>

@@ -1,0 +1,39 @@
+<channel
+   name="12] file to database"
+   guid="A3B9D3C828EB3157D06022587503F176"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="storefile_in_db-To-dTsj5DHRROkFSi"
+      commit_id="66e6af680464a81d3b342197e9595f1512582d6c"
+      commit_comment="commit">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="A4311C4B1A766C72D5AB9EE1AA817801"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_file
+      file_type="HL7"
+      prepend_file_info="false"
+      eof_char=""
+      poll_time="10000"
+      max_message_size="15728640"
+      source_dir="C:/targetfolder/"
+      source_file_extension="xml"
+      archive_processed_files="false"
+      processed_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/1. storefile_in_db/destination/"
+      error_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/1. storefile_in_db/destination/"
+      ignored_segments=""
+      segment_delimiter="0x0D"
+      message_delimiter="0x0A"
+      minimum_file_age="0"
+      escape_8bit="false"
+      escape_char=" "
+      ftp_username="admin"
+      ftp_password="0DvVaBchX4Uh3AZ95G3xNTCp0lCH4N2gjw6nSImqBTQ="
+      sftp_authentication_method="user_password"
+      use_ftp="false"/>
+</channel>

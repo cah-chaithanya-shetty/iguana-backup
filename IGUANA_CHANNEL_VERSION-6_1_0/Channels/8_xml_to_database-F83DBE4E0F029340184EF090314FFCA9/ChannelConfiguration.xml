@@ -1,0 +1,38 @@
+<channel
+   name="8]  xml_to_database"
+   guid="F83DBE4E0F029340184EF090314FFCA9"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="true">
+   <to_mapper
+      guid="xmltodatabase-To-KbTju5z88Aen57"
+      commit_id="10eb575b47502cde67f33cd5775219a836351134"
+      commit_comment="commit">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="77A19302F0A489EB42876F73406F65F6"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="xmltodatabase-From-Wg5jfQwbfV10Zs"
+      commit_id="074fb453fc6a933448f15771681e625140d4c940"
+      commit_comment="commit"
+      poll_time="10000">
+   </from_mapper>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="xmltodatabase-Filter-zZjzgx0ISiPTv1"
+      translator_commit_id="db7ec57620e1d1a0a3a823508357e9adc1f72aeb"
+      translator_commit_comment="commit">
+   </message_filter>
+</channel>

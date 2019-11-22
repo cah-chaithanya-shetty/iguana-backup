@@ -1,0 +1,8 @@
+{
+    "Samples": [
+        {
+            "Message": "sno,fname,lname,salary,company\r\n1,sri,sris,10000,tcs\r\n2,sai,sais,10000,capgemini\r\n3,hari,haris,20000,accenture\r\n4,ram,rams,30000,wipro\r\n5,raghu,raghus,40000,ibm\r\n6,manu,manus,50000,techm\r\n7,shan kar,shankars,30000,embassy\r\n8,spb,spbs,29999,qualcomm\r\n9,dsp,dsp,40000,infosys\r\n10,chiru,chiru,10000,mahindra\r\n",
+            "Name": ""
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+<channel
+   name="storing excel data  to db"
+   guid="5347E6F559FB4322D968B07679C696AD"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="excel_to_db-To-8zzjwu53S2wYmv"
+      commit_id="f32ac3b83195b56f0c775eb3feff21b360158311"
+      commit_comment="commit">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="50938F708AB6F8E43CC5E15A89CBDB2F"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="excel_to_db-From-p6dtfP1AtPaSga"
+      commit_id="731a4e363b1649bde5b9d3e0c0026646f154bc7b"
+      commit_comment="commmit"
+      poll_time="10000">
+   </from_mapper>
+</channel>

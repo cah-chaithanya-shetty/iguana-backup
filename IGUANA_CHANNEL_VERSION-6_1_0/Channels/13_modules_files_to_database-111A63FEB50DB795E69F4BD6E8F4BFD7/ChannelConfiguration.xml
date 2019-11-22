@@ -1,0 +1,24 @@
+<channel
+   name="13] modules files to database"
+   guid="111A63FEB50DB795E69F4BD6E8F4BFD7"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="fun_to_db-To-nKl2tkxqRvwfFX"
+      commit_id="d1ec07df91ac78b7882fec30df0ef56c899b33b4"
+      commit_comment="commit">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="7EF4BE0F9244E04F3FAA51A46F6AD6E1"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="fun_to_db-From-awWXrSsBDV5ze4"
+      commit_id="d02b1b49b6db7f009a7dbb4da450aab1f2ecb774"
+      commit_comment="commit"
+      poll_time="10000">
+   </from_mapper>
+</channel>

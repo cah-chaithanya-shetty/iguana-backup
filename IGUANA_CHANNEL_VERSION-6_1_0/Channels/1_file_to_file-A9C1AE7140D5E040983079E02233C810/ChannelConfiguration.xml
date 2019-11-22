@@ -1,0 +1,59 @@
+<channel
+   name="1]  file_to_file"
+   guid="A9C1AE7140D5E040983079E02233C810"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="true">
+   <to_file
+      output_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/week1/Destination/"
+      write_to_separate_file="false"
+      output_single_filename="target"
+      use_prepended_info_as_filename="false"
+      output_file_id_type="0"
+      output_filename_mask=""
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      sftp_authentication_method="user_password">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="DA94A1880A86D0FC0D79F0E55F0A7C03"/>
+      </dequeue_list>
+   </to_file>
+   <from_file
+      file_type="ArbitraryText"
+      prepend_file_info="false"
+      eof_char=""
+      poll_time="10000"
+      max_message_size="15728640"
+      source_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/week1/Source/"
+      source_file_extension="txt"
+      archive_processed_files="true"
+      processed_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/week1/Move_Processed_file/"
+      error_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/week1/Move_Processed_file/"
+      ignored_segments=""
+      segment_delimiter="0x0D"
+      message_delimiter="0x0A"
+      minimum_file_age="0"
+      escape_8bit="false"
+      escape_char=" "
+      ftp_username="admin"
+      ftp_password="0DvVaBchX4Uh3AZ95G3xNTCp0lCH4N2gjw6nSImqBTQ="
+      sftp_authentication_method="user_password"
+      use_ftp="false"/>
+   <message_filter
+      filter_after_logging="true"
+      log_pre_post_filter_message="true"
+      keep_vmd_updated="false"
+      original_vmd_path=""
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true"
+      translator_guid="file_to_file-Filter-zSxq5YhR5jc6Ra"
+      translator_commit_id="ba11ef9635458d3c0ebf5504ad86d2a7ac05641f"
+      translator_commit_comment="commiy">
+   </message_filter>
+</channel>

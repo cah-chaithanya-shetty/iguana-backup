@@ -1,0 +1,30 @@
+<channel
+   name="15] Soap ui to file to db"
+   guid="EAC151D3460F073C7F02D70412D8D79F"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_file
+      output_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/http_file_db/Destination/"
+      write_to_separate_file="false"
+      output_single_filename="txt"
+      use_prepended_info_as_filename="false"
+      output_file_id_type="0"
+      output_filename_mask=""
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      sftp_authentication_method="user_password">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="0E8C63085B23F64D43A9CAB6E6A8048E"/>
+      </dequeue_list>
+   </to_file>
+   <from_http
+      type="mapper"
+      guid="http_file_db-FromHTTP-EQbWi2IIpji80N"
+      commit_id="95709dfb357c06a94cf5b9afe7b0f04c36c21770"
+      commit_comment="Commit"
+      mapper_url_path="&#x9; http://localhost:6500/"/>
+</channel>

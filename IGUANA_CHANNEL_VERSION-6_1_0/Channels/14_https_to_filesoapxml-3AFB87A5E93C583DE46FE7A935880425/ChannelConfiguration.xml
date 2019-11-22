@@ -1,0 +1,31 @@
+<channel
+   name="14]  https_to_file[soap(xml)]"
+   guid="3AFB87A5E93C583DE46FE7A935880425"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_file
+      output_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/https_to_file/destination/"
+      write_to_separate_file="false"
+      output_single_filename="file1"
+      use_prepended_info_as_filename="false"
+      output_file_id_type="0"
+      output_filename_mask=""
+      temp_file_extension="tmp"
+      count_of_padding_digit="5"
+      ftp_password="0DvVaBchX4Uh3AZ95G3xNTCp0lCH4N2gjw6nSImqBTQ="
+      sftp_authentication_method="user_password"
+      use_ftp="false">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="933549B78F94BC40D597042B49AAE793"/>
+      </dequeue_list>
+   </to_file>
+   <from_http
+      type="mapper"
+      guid="htps_to_file-FromHTTP-RIUh1HSLGgKj6C"
+      commit_id="4e7bad2dd6af84c8c21ee3cd04a9cef916592e78"
+      commit_comment="Commit"/>
+</channel>

@@ -1,0 +1,24 @@
+<channel
+   name="using shared and other folders"
+   guid="C2AB48A6CA60BCD59522C8A50B07778B"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="using_shared_and_other_folders-To-7n5PEWoAx5Cj0U"
+      commit_id="69aa93105b4c26dd4515b6ae90ee982f1047a6fb"
+      commit_comment="Commit">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="3544028A6B37B004631CD93DE73B2EDA"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="using_shared_and_other_folders-From-XiHwss1neS20I9"
+      commit_id="4f052de84f09b7d17e786c3969999381a46ddaaa"
+      commit_comment="Commit"
+      poll_time="10000">
+   </from_mapper>
+</channel>

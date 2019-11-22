@@ -1,0 +1,39 @@
+<channel
+   name="10]xml to db"
+   guid="5E6238AB36674B66FBBFFD0E3D7E779E"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="menu_file_to_db-To-cTEZcypBYxzjZy"
+      commit_id="d888bfab3a946e5976484fa316267140d3cc4e14"
+      commit_comment="Commit">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="FA6029C3E7EDA96C856128E25F7E6970"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_file
+      file_type="HL7"
+      prepend_file_info="false"
+      eof_char=""
+      poll_time="10000"
+      max_message_size="15728640"
+      source_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/file_to_db/source/"
+      source_file_extension="xml"
+      archive_processed_files="true"
+      processed_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/file_to_db/moved_file/"
+      error_dir="C:/Program Files/iNTERFACEWARE/Iguana/season/file_to_db/moved_file/"
+      ignored_segments=""
+      segment_delimiter="0x0D"
+      message_delimiter="0x0A"
+      minimum_file_age="0"
+      escape_8bit="false"
+      escape_char=" "
+      ftp_username="admin"
+      ftp_password="0DvVaBchX4Uh3AZ95G3xNTCp0lCH4N2gjw6nSImqBTQ="
+      sftp_authentication_method="user_password"
+      use_ftp="false"/>
+</channel>

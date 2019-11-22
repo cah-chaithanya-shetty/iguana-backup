@@ -1,0 +1,24 @@
+<channel
+   name="3PL_WO_Orders_to_Database_Test"
+   guid="0314E338484E107B1E3E138FA9F0D7D1"
+   description="This channel read the orders and store them in the database."
+   start_automatically="false"
+   logging_level="2"
+   use_message_filter="false">
+   <to_mapper
+      guid="3PL_WO_Orders_to_Database_Test-To-TKpFE5z56dsgeM"
+      commit_id="b93f13abe26789517b0bd4393b98ff083511f9fd"
+      commit_comment="Import Translators: test">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="90F98DCE7736C61E7AEBAFA5A30E372F"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="3PL_WO_Orders_to_Database_Test-From-NASgDxIFbAOPE7"
+      commit_id="7197b75d84d3ce6510e9ec93a9dbf475dd873090"
+      commit_comment="Import Translators: commit1"
+      poll_time="60000">
+   </from_mapper>
+</channel>
